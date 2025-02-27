@@ -23,7 +23,7 @@ El repositorio está organizado de la siguiente manera:
 * **`spring/`:** Ejercicios y proyectos relacionados con Spring Framework.
 * **`hibernate/`:** Ejercicios y proyectos relacionados con Hibernate.
 * **`notes/`:** Apuntes de estudio en formato Markdown (.md).
-* **`projects/`:** proyectos personales que mezclan las tres tecnologias.
+* **`projects/`:** proyectos personales que mezclan las tres tecnologías.
 
 ## Recursos
 
