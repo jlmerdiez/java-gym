@@ -1,8 +1,5 @@
 package chapter2;
 
-import java.util.Calendar;
-import java.util.Date;
-
 public class Casting {
     double doubleVar = 42.3d;
     float floatVar = (float) doubleVar;
