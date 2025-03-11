@@ -21,17 +21,4 @@ public class Casting {
         // char1 = char1 + char2; // error: no se puede convertir int a char
         // short1 = short1 + short2; // error: no se puede convertir int a short
     }
-
-    static void testInstanceOf() {
-        Object obj = Calendar.getInstance();
-        Date time = 0;
-        if (obj instanceof Calendar)
-        {
-            time = ((Calendar)obj).getTime();
-        }
-        if (obj instanceof Date)
-        {
-            time = ((Date)obj).getTime(); // Nunca se ejecuta, ya que obj no es del tipo Date
-        }
-    }
 }
