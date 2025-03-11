@@ -2,7 +2,7 @@
 
 ## Java
 
-### Configuración de IntelliJ IDEA para que reconozca las carpetas como parte de un proyecto Java
+### Prólogo - Configuración de IntelliJ IDEA para que reconozca las carpetas como parte de un proyecto Java
 
 Para poder crear clases Java en nuestro repositorio a través de IntelliJ IDEA, necesitamos configurar correctamente la estructura del proyecto. El problema es que IntelliJ no reconoce automáticamente la carpeta como parte de un proyecto Java.
 Aquí están los pasos para solucionarlo:
@@ -27,10 +27,17 @@ Aquí están los pasos para solucionarlo:
    - Seleccionamos Maven
    - Seguimos el asistente para crear la estructura correcta
 
-### Punto 2
+### Capítulo 2
+
+Cuando se hace un casting de primitivos de coma flotante (float, double) a primitivos enteros, el número se redondea hacia abajo.
+
+No se puede hacer cast de un boolean o hacia un tipo boolean.
+
+Un char se guarda en memoria con 2 bytes, y puede almacenar cualquier carácter Unicode. Es un tipo numérico.
+
+El operador **instanceof** nos permite comprobar si un objeto es de un determinado tipo o una subclase de ese tipo.
 
 ## Spring
-
 
 ## Hibernate
 
